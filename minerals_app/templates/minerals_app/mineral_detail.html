@@ -8,6 +8,8 @@
         <img class="mineral__image" src="{% static 'images/' %}{{ mineral.name }}.jpg">
         <p class="mineral__caption">{{ mineral.image_caption }}</p>
     </div>
+    <div class="grid-100">
+    <div class="mineral__container">
     <div class="mineral__table-container">
         <table class="mineral__table">
             <tr>
@@ -71,6 +73,8 @@
             <td>{{ mineral.specific_gravity|title }}</td>
           </tr>
         </table>
+    </div>
+    </div>
     </div>
 
 {% endblock %}
