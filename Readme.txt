@@ -1,12 +1,12 @@
 Treehouse Python Webdevelopment Course Projekt 06 - Mineral Catalogue
 
 Lukas Straumann
-March 2019
+June 2019
 
-Version 1.0
+Version 1.1
 
 
-Write a script to that constructs a mineral model instance for each mineral in
+Write a script to that constructs a mineral model instance for each mineral in minerals.json
 
 
 Create a layout template for the app.
