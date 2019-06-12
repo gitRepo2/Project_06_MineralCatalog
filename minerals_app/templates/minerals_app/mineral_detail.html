@@ -3,13 +3,12 @@
 {% load mineral_extras %}
 
 {% block content %}
+    <div class="grid-100 mineral__container">
     <h1 class="mineral__name">{{ mineral.name|title }}</h1>
     <div class="mineral__image-bg">
         <img class="mineral__image" src="{% static 'images/' %}{{ mineral.name }}.jpg">
         <p class="mineral__caption">{{ mineral.image_caption }}</p>
     </div>
-    <div class="grid-100">
-    <div class="mineral__container">
     <div class="mineral__table-container">
         <table class="mineral__table">
             <tr>
@@ -75,6 +74,4 @@
         </table>
     </div>
     </div>
-    </div>
-
 {% endblock %}
